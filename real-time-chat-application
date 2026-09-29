@@ -1,0 +1,32 @@
+print("=" * 45)
+print("        REAL-TIME CHAT APPLICATION")
+print("=" * 45)
+username = input("Enter your name: ")
+print(f"\nWelcome, {username}!")
+print("Type your messages below.")
+print("Type 'exit' to end the chat.\n")
+while True:
+    message = input(f"{username}: ")
+    if message.lower() == "exit":
+        print("\nChat ended.")
+        break
+    print(f"{username} sent: {message}")
+
+OUTPUT:
+=============================================
+        REAL-TIME CHAT APPLICATION
+=============================================
+Enter your name: MAHA
+Welcome, MAHA!
+Type your messages below.
+Type 'exit' to end the chat.
+MAHA: HELLO
+MAHA sent: HELLO
+MAHA: HOW ARE YOU?
+MAHA sent: HOW ARE YOU?
+MAHA: I am learning Python.
+MAHA sent: I am learning Python.
+MAHA: EXIT
+
+Chat ended.
+
